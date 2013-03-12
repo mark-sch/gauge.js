@@ -389,7 +389,7 @@
 
     Gauge.prototype.displayedAngle = 0;
 
-    Gauge.prototype.displayedValue = 0;
+    Gauge.prototype.displayedValue = 1;
 
     Gauge.prototype.lineWidth = 40;
 
@@ -403,13 +403,13 @@
       gradientType: 0,
       strokeColor: "#e0e0e0",
       pointer: {
-        length: 0.8,
-        strokeWidth: 0.035
+        length: 0.72,
+        strokeWidth: 0.033
       },
       angle: 0.15,
-      lineWidth: 0.44,
+      lineWidth: 0.45,
       fontSize: 40,
-      percentColors: [[0.0, "#a9d70b"], [0.50, "#f9c802"], [1.0, "#ff0000"]]
+      percentColors: [[0.0, "#ff0000"], [0.50, "#f9c802"], [1.0, "#a9d70b"]]
     };
 
     function Gauge(canvas) {
